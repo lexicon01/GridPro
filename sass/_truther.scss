@@ -1,0 +1,35 @@
+.truther {
+    background-color: $color-secondary;
+    grid-column: col-start 7 / full-end;
+    padding: 3rem;
+
+
+    display: grid;
+    align-content: center;
+    justify-items: center;
+    justify-content: center;
+    grid-row-gap: 2rem;
+
+    &__list {
+        display: grid;
+        grid-template-columns: min-content max-content;
+        grid-column-gap: 2rem;
+        grid-row-gap: 5vw;
+        align-items: center;
+
+    }
+
+    &__img {
+        width: 7rem;
+
+        border-radius: 50%;
+        display: block;
+    }
+
+    &__text {
+        text-transform: uppercase;
+        color: $color-grey-light-2;
+        margin-top: -3px;
+    }
+}
+
