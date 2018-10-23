@@ -85,7 +85,7 @@
 .heading-flex {
     display: flex;
     justify-self: center;
-    fill: #29d1c3;
+    fill: $color-side-primary;
 
  
 
@@ -97,7 +97,7 @@
     &__size {
         @extend %heading;
         font-size: 4.6rem;
-        color: #29d1c3;
+        color: $color-side-primary;
         text-transform: uppercase;
 
         

@@ -50,7 +50,7 @@ body {
 
 .heading-3 {
   font-size: 1.6rem;
-  color: #29d1c3;
+  color: #0e8bcf;
   text-transform: uppercase; }
 
 .heading-4 {
@@ -182,14 +182,14 @@ body {
 .heading-flex {
   display: flex;
   justify-self: center;
-  fill: #29d1c3; }
+  fill: #0e8bcf; }
   @media only screen and (max-width: 37.5em) {
     .heading-flex {
       flex-direction: column;
       align-items: center; } }
   .heading-flex__size {
     font-size: 4.6rem;
-    color: #29d1c3;
+    color: #0e8bcf;
     text-transform: uppercase; }
     @media only screen and (max-width: 37.5em) {
       .heading-flex__size {
@@ -243,7 +243,7 @@ body {
   grid-column-gap: 2.5rem;
   align-items: start; }
   .feature__icon {
-    fill: #29d1c3;
+    fill: #0e8bcf;
     width: 4.5rem;
     height: 4.5rem;
     grid-row: 1 / span 2;
@@ -328,7 +328,7 @@ body {
   .home__like {
     grid-row: 1 / 2;
     grid-column: 2 / 3;
-    fill: #4237a5;
+    fill: #0e8bcf;
     height: 2.5rem;
     width: 2.5rem;
     z-index: 2;
@@ -357,7 +357,7 @@ body {
     display: flex;
     align-items: center; }
     .home__location svg, .home__rooms svg, .home__area svg, .home__price svg {
-      fill: #4237a5;
+      fill: #0e8bcf;
       height: 2rem;
       width: 2rem;
       margin-right: 1rem; }

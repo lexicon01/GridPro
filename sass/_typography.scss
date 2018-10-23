@@ -22,7 +22,7 @@
 .heading-3 {
     @extend %heading;
     font-size: 1.6rem;
-    color: #29d1c3;
+    color: $color-side-primary;
     text-transform: uppercase;
 
 }
