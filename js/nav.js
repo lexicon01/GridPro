@@ -25,10 +25,13 @@ function openNav() {
 //close da damn thing
 function closeNav() {
     closeBtn.addEventListener('click', function() {
+        // adds a class to this div element with id - sidebar
         idSideBar.classList = 'sidebar';
 
+        // displays the hamberget menu
         openBtn.style.display = 'block';
 
+        // hides the x btn 
         closeBtn.style.display = 'none';
     });
 }
