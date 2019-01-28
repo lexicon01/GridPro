@@ -3,6 +3,10 @@ let sidebar = document.querySelector('.sidebar');
 let closeBtn = document.getElementById('closeBtn');
 let classNav = document.querySelector('.openNav');
 let idSideBar = document.getElementById('sidebar');
+let navLi = document.getElementsByTagName('li');
+let toggleNav = document.getElementById('toggle-nav');
+//List menu
+let navList = document.querySelector('.nav-list');
 // kfsadlkfjdsladkfj
 function openNav() {
     
@@ -18,6 +22,15 @@ function openNav() {
         // display close btn
         closeBtn.style.display = 'block';
 
+        setTimeout(() => {
+            // show list menu
+
+            for(i = 0; i < navLi.length; i++){
+                navLi[i].style.display = 'block';
+                navLi[i].classList = 'nav-list';
+
+            }
+        }, 2000);
 
     });
 }

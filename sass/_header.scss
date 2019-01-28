@@ -109,3 +109,16 @@
         
     }
 }
+
+.nav-list {
+    display: block;
+    position: relative;
+    top: 2rem;
+    left: 2rem;;
+    font-size: 4rem;
+    color: rgb(231, 224, 224);
+}
+
+#toggle-nav {
+    display: none;
+}
